@@ -54,12 +54,57 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    
 }
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
+}
+/* Navigation Menu */
+header{
+	height: 10%vh;
+    width: 100%;
+    padding: 20px ;
+	display: flex;
+	
+	align-items: center;
+}
+header nav{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position: fixed;
+	left: 9%;
+	width: 80%;
+	top: 0%;
+	background-color: white;
+	height: 10%
+}
+nav a{
+	text-decoration: none;
+	color: gray;
+	padding: 1%;
+	border-radius: 35%;
+	
+	
+}
+.imgCont{
+    height: 10%vh;
+    width: 100%;
+    padding: 20px ;
+    padding-top: 5%;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+    
+}
+.middle-img{
+    width: 78%;
+    
+    
 }
 
 p {
