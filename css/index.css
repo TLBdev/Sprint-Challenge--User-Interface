@@ -149,7 +149,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -200,7 +200,7 @@ footer nav a {
 }
 .sixBox div{
 	width: 48%;
-	border-bottom: 2px solid black;
+	border-bottom: 1px solid black;
 	padding-bottom: 3%;
     background-color: whitesmoke;
     padding-top: 2%
@@ -213,7 +213,7 @@ footer nav a {
     text-justify: distribute;
     border: 1px solid black;
     padding-top: 3%;
-    border-radius:30%;
+    border-radius:10%;
     width: 2%
 }
 .oneCol img {
@@ -227,4 +227,35 @@ footer nav a {
 
 .oneCol .padBottomP{
     padding-bottom: 3%
+}
+
+.box1 {
+    background-color: teal
+}
+.box2 {
+    background-color: gold
+}
+.box3 {
+    background-color: cadetblue
+}
+.box4 {
+    background-color: coral
+}
+.box5 {
+    background-color: crimson
+}
+.box6 {
+    background-color: forestgreen
+}
+.box7 {
+    background-color: darkorchid    
+}
+.box8 {
+    background-color: hotpink
+}
+.box9 {
+    background-color: indigo
+}
+.box10 {
+    background-color: dodgerblue
 }
