@@ -189,3 +189,42 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/* Grid Layout */
+.sixBox{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 3%;
+	padding-bottom: 3%;
+	border-top: 1px solid black;
+	flex-wrap: wrap;
+}
+.sixBox div{
+	width: 48%;
+	border-bottom: 2px solid black;
+	padding-bottom: 3%;
+    background-color: whitesmoke;
+    padding-top: 2%
+    
+
+}
+.learnButton{
+	text-align: center;
+    background-color: white;
+    text-justify: distribute;
+    border: 1px solid black;
+    padding-top: 3%;
+    border-radius:30%;
+    width: 2%
+}
+.oneCol img {
+    margin-top: 6%
+}
+.oneCol div{
+	margin-top: 3%;
+	
+	
+}
+
+.oneCol .padBottomP{
+    padding-bottom: 3%
+}
